@@ -5,7 +5,7 @@ function Layout({children})
 {
     return (
          <div className="container mt-4">
-            <h3 className="text-center mb-4">React LIST App</h3>
+            <h3 className="text-center mb-4">To-do List App</h3>
             <nav>
                 <Link className="btn btn-primary me-2" to="/"> Home </Link>
                 <Link className="btn btn-success" to="/add"> Add New </Link>
