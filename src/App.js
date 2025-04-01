@@ -5,6 +5,7 @@ import Layout from './Layout';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ListItems from './ListItems';
 import AddItem from './AddItem';
+import Contact from "./contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import EditItem from './EditItem';
@@ -22,7 +23,7 @@ function App() {
   // }
 
   const [items , setItems] = useState([
-    {id : 1, title: "Oranges" , description: "Test data"}
+    {id : 1, title: "Yoga" , description: "Take a class at the studio"}
   ])
 
   function deleteItem()
@@ -55,6 +56,7 @@ function App() {
                <Route path="/add" element={ <AddItem onAdd={addItem} /> }    />
                function updateItem(updated)
                <Route path="/edit/:id" element={ <EditItem items={items} onUpdate={updateItem} />} />
+               <Route path="/contact" element={<Contact />} />
 
             </Routes>
         </Layout>
