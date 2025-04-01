@@ -1,7 +1,8 @@
 body {
-  background-color: #d5dde5;
+  background-color: #b7c3cf;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #343a40;
+  
 }
 
 .container {
@@ -27,4 +28,8 @@ input, textarea {
 
 nav {
   margin-bottom: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
