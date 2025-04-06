@@ -40,7 +40,7 @@ function App() {
     { id: 1, title: "Yoga", description: "Take a class at the studio" },
     { id: 1, title: "Cookies", description: "Pick-up cookies from the grocery store" },
     { id: 1, title: "Design Book", description: "Grab graphic design book from the library" },
-    { id: 1, title: "Car Wash", description: "Go to get my car detailed" }
+    { id: 1, title: "Car Wash", description: "Go to get my car detailed for event" }
   ]);
 
   function addItem(item) {
