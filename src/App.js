@@ -16,8 +16,8 @@ import { createStore } from 'redux';
 // 🔥 Redux setup
 const initialState = {
   items: [
-    { id: 1, title: "Python Class", description: "Have to take a python class tomorrow", status: false },
-    { id: 2, title: "Python Class Thursday", description: "Have to take a python class tomorrow", status: false }
+    { id: 1, title: "Yoga Class", description: "Have to take a yoga class tomorrow", status: false },
+    { id: 2, title: "Yoga Class Thursday", description: "Have to take a yoga class tomorrow", status: false }
   ]
 };
 
